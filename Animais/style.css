@@ -1,0 +1,569 @@
+body {
+    font-family: Arial, sans-serif;
+     background-color: lightgoldenrodyellow;
+  }
+  
+  #img-logo{
+    width: 100px;
+    height: 120px; 
+    position: absolute;
+    top: 1%;
+    left: 0;
+    padding: 5px 20px;
+  }
+  
+  header {
+    background-color: orange;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 85px;
+  }
+  
+  header h1{
+      color: white;
+  }
+  
+  nav ul{
+      display: flex;
+      list-style: none;
+      font-size: 20px;
+      font-family: 'Anton';
+  }
+  
+  nav ul li{
+      margin: 0 18px;
+      display: inline;
+      justify-content: center;
+      list-style: none;
+  }
+  
+  nav a{
+      text-decoration: none;
+      font-size: 20px;
+      color:black;
+      display:inline-block;
+  }
+  
+  nav a:hover{
+      text-decoration:underline;
+  }
+  
+  #img-gato{
+  height: 150px;
+      width: 150px;
+      border-radius: 60%;
+      background-position: right top;
+      background-position: right top;
+  }
+  
+  
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #555;
+  }
+  
+  
+  
+  #doações button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #img-nemo{
+  height: 150px;
+      width: 150px;
+      border-radius: 60%;
+     padding-top: 20px;
+      
+  }
+  
+  
+  .nemo button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #img-rottweiller{
+      height: 150px;
+      width: 150px;
+      border-radius: 60%;
+  }
+  .rottweiller button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .garfield button{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  .garfield{
+     width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      padding-bottom: 30px;
+      margin-top: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .rottweiller{
+        width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      padding-bottom: 30px;
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .nemo{
+       width: 350px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      position: relative;
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+       padding-bottom: 30px;
+  }
+  
+  .chartreux{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+      
+      
+      
+  
+  }
+  #img-chartreaux{
+      height: 150px;
+      width: 150px;
+      border-radius: 60%;
+      
+  }
+    
+  .chartreux button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #img-bulldog{
+      height: 150px;
+      width: 150px;
+      border-radius: 60%;
+      
+  }
+  .bulldog button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #img-viralata{
+      height: 150px;
+      width: 150px;
+      border-radius: 60%;
+      
+  }
+  #img-mainecoon{
+      height: 100px;
+      width: 150px;
+      border-radius: 60%;
+      
+  }
+  #img-boxer{
+      height: 100px;
+      width: 150px;
+      border-radius: 60%;
+      
+  }
+  #img-pastor{
+      height: 100px;
+      width: 130px;
+      border-radius: 60%;
+      padding-top:50px;
+      padding-right:10px;
+      padding-bottom:9px
+   
+  }
+  #img-siames{
+      height: 100px;
+      width: 150px;
+      border-radius: 60%;
+  }
+  
+  #img-shih{
+      height: 100px;
+      width: 150px;
+      border-radius: 60%;
+  }
+  #img-american{
+      height: 100px;
+      width: 150px;
+      border-radius: 60%;
+      padding-top: 20px;
+  }
+  
+  
+  .vira-lata button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mainecoon button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boxer button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pastor button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .siames button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .shih button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .american button{
+      padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .bulldog{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .vira-lata{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .mainecoon{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+      padding-right: 5px;
+      padding-top: 20px;
+  }
+  .boxer{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .pastor{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .siames{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .shih{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .american{
+       width: 350px;
+      height: 350px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  
+      margin-top: 20px;
+       border-width: 1px;
+    border-style: solid;
+    border-color: black;
+  }
+  .table-cell {
+    max-width: 100%;
+    overflow-x: auto; /* adiciona uma barra de rolagem horizontal quando a tabela excede a largura da tela */
+  }
+  
+  
+    table {
+      font-size: 12px; /* diminui o tamanho da fonte */
+          width: 100%;
+    border-collapse: collapse;
+    }
+    td{
+      padding: 6px; 
+       width: auto; 
+       padding: 8px;
+    border: 1px solid #ccc;
+    }
+  .ver-mais-pets {
+    display: inline-block;
+    margin-top: 20px; 
+    background-color: lightgreen; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+  }
+  
+  .doacoes {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-align:center;
+  }
+  .doacoes h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .doacoes p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .adoção h2{
+      font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .doacoes button {
+    background-color: green;
+    padding: 10px;
+    text-align:start;
+  
+  }
+      
+  #voluntários {
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #voluntários h2 {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #voluntários form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #voluntários label {
+    font-size: 18px;
+    color: green;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #voluntários input[type="text"],
+  #voluntários input[type="email"],
+  #voluntários input[type="tel"],
+  #voluntários textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #contato {
+  background-color: lightgoldenrodyellow;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contato h2 {
+    font-size:30px;
+    color: #333;
+    margin-bottom: 10px;
+      
+  }
+  
+  #contato p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
